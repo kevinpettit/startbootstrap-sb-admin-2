@@ -7,3 +7,6 @@
 .panel-heading a.collapsed:after {
     content:"\e080";
 }
+.dropdown-menu {
+	white-space: normal;
+	}
