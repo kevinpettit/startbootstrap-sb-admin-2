@@ -336,6 +336,16 @@
 <!--item table -->
         <div class='container-fluid'
             <div class="row">
+
+            <!-- colvis -->
+            <div class="ColVis"><button class="ColVis_Button ColVis_MasterButton"><span>Show / hide columns</span></button></div>
+            <!--    
+            <ul class="ColVis_collection" style="display: block; opacity: 1; position: absolute; top: 654px; left: 685px;"><li><label><input type="checkbox"><span>Name</span></label></li><li><label><input type="checkbox"><span>Position</span></label></li><li><label><input type="checkbox"><span>Office</span></label></li><li><label><input type="checkbox"><span>Age</span></label></li><li><label><input type="checkbox"><span>Start date</span></label></li><li><label><input type="checkbox"><span>Salary</span></label></li></ul> 
+            -->
+
+            <!-- colvis -->
+
+
                 <div class="col-xs-12">
                     <div class="panel panel-default">
                         <div class="panel-heading">
@@ -347,69 +357,69 @@
                                 <table class="table table-striped table-bordered table-hover">
                                     <thead>
                                         <tr>
-                                            <th>UPC #</th>
+                                            
                                             <th>Item Name</th>
-                                            <th>Base Price</th>
-                                            <th>Current Promo</th>
+                                            <th>Current Price</th>
+                                            <th>Future Price</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td>123</td>
+                                            
                                             <td>Green Bean</td>
                                             <td>$0.79</td>
                                             <td>-</td>
                                         </tr>
                                         <tr>
-                                            <td>456</td>
+                                            
                                             <td>Corn</td>
                                             <td>$1.50</td>
                                             <td>$1.20</td>
                                         </tr>
                                         <tr>
-                                            <td>7849</td>
+                                            
                                             <td>Bread</td>
                                             <td>$1.25</td>
                                             <td>$0.75</td>
                                         </tr>
                                              <tr>
-                                            <td>7389</td>
+                                            
                                             <td>Thyme</td>
                                             <td>$1.25</td>
                                             <td>$0.75</td>
                                         </tr>
                                              <tr>
-                                            <td>78439</td>
+                                            
                                             <td>Cream</td>
                                             <td>$1.25</td>
                                             <td>$0.75</td>
                                         </tr>
                                              <tr>
-                                            <td>734389</td>
+                                            
                                             <td>Pickle</td>
                                             <td>$1.25</td>
                                             <td>$0.75</td>
                                         </tr>
                                              <tr>
-                                            <td>78909</td>
+                                            
                                             <td>Bread Butter</td>
                                             <td>$1.25</td>
                                             <td>$0.75</td>
                                         </tr>
                                              <tr>
-                                            <td>789</td>
+                                            
                                             <td>Bread Loaf</td>
                                             <td>$1.25</td>
                                             <td>$0.75</td>
                                         </tr>
                                              <tr>
-                                            <td>789343</td>
+                                            
                                             <td>Bread Big</td>
                                             <td>$1.25</td>
                                             <td>$0.75</td>
                                         </tr>
                                              <tr>
-                                            <td>73489</td>
+                                            
                                             <td>Bread Small</td>
                                             <td>$1.25</td>
                                             <td>$0.75</td>
@@ -476,7 +486,7 @@
                            Allowance Type - Off-Scan 
                         </div>
                         <div class="panel-heading col-md-4">
-                           Allowance $ - $5,000 
+                           Allowance per Unit $ - $0.50 
                         </div>
                     </div>
                     </div>
@@ -488,10 +498,8 @@
                                         <tr>
                                             <th>UPC #</th>
                                             <th>Item Name</th>
-                                            <th>Actual Units</th>
                                             <th>Projected Units</th>
-                                            <th>Actual $</th>
-                                            <th>Projected $</th>
+                                            <th>% Lift</th>                                      
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -499,25 +507,19 @@
                                             <td>1432</td>
                                             <td>Big Bread</td>
                                             <td>400</td>
-                                            <td>500</td>
-                                            <td>$150</td>
-                                            <td>$205</td>
+                                            <td>20.0%</td>
                                         </tr>
                                         <tr>
                                             <td>3532</td>
                                             <td>Little Bread</td>
                                             <td>354</td>
-                                            <td>200</td>
-                                            <td>$500</td>
-                                            <td>$400</td>
+                                            <td>15.0%</td>
                                         </tr>
                                         <tr>
                                             <td>9343</td>
                                             <td>Giant Bread</td>
                                             <td>343</td>
-                                            <td>700</td>
-                                            <td>$340</td>
-                                            <td>$323</td>
+                                            <td>20.0%</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -540,7 +542,7 @@
                            Allowance Type - Off-Scan 
                         </div>
                         <div class="panel-heading col-md-4">
-                           Allowance $ - $5,000 
+                           Allowance per Unit - $0.75 
                         </div>
                     </div>
                     </div>
@@ -552,10 +554,8 @@
                                         <tr>
                                             <th>UPC #</th>
                                             <th>Item Name</th>
-                                            <th>Actual Units</th>
                                             <th>Projected Units</th>
-                                            <th>Actual $</th>
-                                            <th>Projected $</th>
+                                            <th>% Lift</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -563,25 +563,19 @@
                                             <td>1432</td>
                                             <td>Grape Jam</td>
                                             <td>400</td>
-                                            <td>500</td>
-                                            <td>$150</td>
-                                            <td>$205</td>
+                                            <td>12.5%</td>
                                         </tr>
                                         <tr>
                                             <td>3532</td>
                                             <td>Cherry Jam</td>
                                             <td>354</td>
-                                            <td>200</td>
-                                            <td>$500</td>
-                                            <td>$400</td>
+                                            <td>14.5%</td>
                                         </tr>
                                         <tr>
                                             <td>9343</td>
                                             <td>Blueberry Jam</td>
                                             <td>343</td>
-                                            <td>700</td>
-                                            <td>$340</td>
-                                            <td>$323</td>
+                                            <td>11.0%</td>
                                         </tr>
                                     </tbody>
                                 </table>
