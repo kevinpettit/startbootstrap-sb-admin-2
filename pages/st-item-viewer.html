@@ -47,10 +47,33 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <link rel="stylesheet" href="components/bootstrap3/css/bootstrap.min.css">
-    <link rel="stylesheet" href="components/bootstrap3/css/bootstrap-theme.min.css">
+ <!--   <link rel="stylesheet" href="components/bootstrap3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="components/bootstrap3/css/bootstrap-theme.min.css"> 
 
-    <link rel="stylesheet" href="css/calendar.css">
+    <link rel="stylesheet" href="css/calendar.css"> -->
+
+
+
+<script> $(document).ready(function(){
+$('#dropdownMenu1').on('show.bs.dropdown', function () {
+  // do something… 
+  alert("the drop down has been shown");
+}) ;
+});</script>
+
+<script>
+$(document).ready(function(){
+    $("#dropdownMenu1").on('onclick', function()
+   { alert("the drop down has been shown");});
+  
+  $(".dropdown-toggle").dropdown();
+  
+});  
+</script>
+
+
+
+
 
 </head>
 
@@ -289,7 +312,7 @@
    
 <div class="container-fluid ">
  <div class="row">
-<h1 class="col-xs-6"> Safeway</h1>
+<h1 id='company' class="col-xs-6"> Safeway</h1>
 
 
 <div class="dropdown col-xs-4 col-xs-offset-1">
@@ -299,7 +322,7 @@
   </button>
  
   <ul class="dropdown-menu dropdown-menu-left" role="menu" aria-labelledby="dropdownMenu1">
-    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Safeway</a></li>
+    <li id="alpha" role="presentation"><a role="menuitem" tabindex="-1" href="#">Safeway</a></li>
     <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Albertsons</a></li>
     <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Raleys</a></li>
     <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Kroger</a></li>
@@ -502,11 +525,11 @@
                             <div class="table-responsive">
                                 <table class="table table-striped">
                                     <thead>
-                                        <tr>
+                                        <tr >
                                             <th>UPC #</th>
                                             <th>Item Name</th>
                                             <th>Projected <br> Units</th>
-                                            <th>% Lift</th>                                      
+                                            <th >% Lift</th>                                      
                                         </tr>
                                     </thead>
                                     <tbody>
