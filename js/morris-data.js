@@ -4,58 +4,58 @@ $(function() {
         element: 'morris-area-chart',
         data: [{
             period: '2010 Q1',
-            iphone: 2666,
-            ipad: null,
-            itouch: 2647
+            Produce: 2666,
+            Canned: null,
+            Dry_Goods: 2647
         }, {
             period: '2010 Q2',
-            iphone: 2778,
-            ipad: 2294,
-            itouch: 2441
+            Produce: 2778,
+            Canned: 2294,
+            Dry_Goods: 2441
         }, {
             period: '2010 Q3',
-            iphone: 4912,
-            ipad: 1969,
-            itouch: 2501
+            Produce: 4912,
+            Canned: 1969,
+            Dry_Goods: 2501
         }, {
             period: '2010 Q4',
-            iphone: 3767,
-            ipad: 3597,
-            itouch: 5689
+            Produce: 3767,
+            Canned: 3597,
+            Dry_Goods: 5689
         }, {
             period: '2011 Q1',
-            iphone: 6810,
-            ipad: 1914,
-            itouch: 2293
+            Produce: 6810,
+            Canned: 1914,
+            Dry_Goods: 2293
         }, {
             period: '2011 Q2',
-            iphone: 5670,
-            ipad: 4293,
-            itouch: 1881
+            Produce: 5670,
+            Canned: 4293,
+            Dry_Goods: 1881
         }, {
             period: '2011 Q3',
-            iphone: 4820,
-            ipad: 3795,
-            itouch: 1588
+            Produce: 4820,
+            Canned: 3795,
+            Dry_Goods: 1588
         }, {
             period: '2011 Q4',
-            iphone: 15073,
-            ipad: 5967,
-            itouch: 5175
+            Produce: 15073,
+            Canned: 5967,
+            Dry_Goods: 5175
         }, {
             period: '2012 Q1',
-            iphone: 10687,
-            ipad: 4460,
-            itouch: 2028
+            Produce: 10687,
+            Canned: 4460,
+            Dry_Goods: 2028
         }, {
             period: '2012 Q2',
-            iphone: 8432,
-            ipad: 5713,
-            itouch: 1791
+            Produce: 8432,
+            Canned: 5713,
+            Dry_Goods: 1791
         }],
         xkey: 'period',
-        ykeys: ['iphone', 'ipad', 'itouch'],
-        labels: ['iPhone', 'iPad', 'iPod Touch'],
+        ykeys: ['Produce', 'Canned', 'Dry_Goods'],
+        labels: ['Produce', 'Canned_Goods', 'Dry_Goods'],
         pointSize: 2,
         hideHover: 'auto',
         resize: true
